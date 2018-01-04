@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AllKana</string>
+    <string name="title_home">Home</string>
+    <string name="title_Hiragana">Hiragana</string>
+    <string name="title_Katakana">Katakana</string>
+    <string name="diacritics">Dakuten &amp; Handakuten</string>
+    <string name="combo">Combo</string>
+    <string name="play">Play</string>
+
+    <!-- HIRAGANA PAGE -->
+    <string name="hiraganaLearn">Learn Hiragana</string>
+    <string name="hiraganaQuiz">Quiz Hiragana</string>
+
+    <!-- KATAKANA PAGE -->
+    <string name="katakanaLearn">Learn Katakana</string>
+    <string name="katakanaQuiz">Quiz Katakana</string>
+
+    <!-- MENU STRINGS -->
+    <string name="theme_menu">Theme</string>
+    <string name="rate_menu">Rate</string>
+    <string name="support_menu">Support</string>
+    <string name="about_menu">About</string>
+
+    <!-- HOME STRINGS -->
+    <string name="hiragana_progress">Hiragana progress: </string>
+    <string name="katakana_progress">Katakana progress: </string>
+
+</resources>
