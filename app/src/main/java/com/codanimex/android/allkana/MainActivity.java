@@ -1,84 +1,58 @@
 package com.codanimex.android.allkana;
 
 import android.content.ActivityNotFoundException;
+import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.codanimex.android.allkana.fragment.HiraganaFragment;
-import com.codanimex.android.allkana.fragment.HomeFragment;
-import com.codanimex.android.allkana.fragment.KatakanaFragment;
-import com.codanimex.android.allkana.learn.HiraganaTab;
-import com.codanimex.android.allkana.learn.KatakanaTab;
+import com.codanimex.android.allkana.tabs.HiraganaTab;
+import com.codanimex.android.allkana.tabs.KatakanaTab;
 
 public class MainActivity extends AppCompatActivity {
-
-    private enum NavigationFragment {
-        Home,
-        Hiragana,
-        Katakana
-    }
-
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
-
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    ChangeFragment(NavigationFragment.Home);
-                    return true;
-                case R.id.navigation_hiragana:
-                    ChangeFragment(NavigationFragment.Hiragana);
-                    return true;
-                case R.id.navigation_katakana:
-                    ChangeFragment(NavigationFragment.Katakana);
-                    return true;
-            }
-            return false;
-        }
-
-    };
-
-    private void ChangeFragment(NavigationFragment value) {
-        Fragment fragment = null;
-        switch (value) {
-            case Home:
-                fragment = new HomeFragment();
-                break;
-            case Hiragana:
-                fragment = new HiraganaFragment();
-                break;
-            case Katakana:
-                fragment = new KatakanaFragment();
-                break;
-        }
-        if (fragment != null)
-            getSupportFragmentManager()
-                    .beginTransaction()
-                    .replace(R.id.content, fragment)
-                    .commit();
-
-    }
+    static SharedPreferences infoStatus;
+    ProgressBar hiraganaProgress;
+    ProgressBar katakanaProgress;
+    TextView percentageHiragana;
+    TextView percentageKatakana;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        navigation.setSelectedItemId(R.id.navigation_home);
+        setContentView(R.layout.home_layout);
+        hiraganaProgress = (ProgressBar) findViewById(R.id.hiraganaProgressBar);
+        katakanaProgress = (ProgressBar) findViewById(R.id.katakanaProgressBar);
+        percentageHiragana = (TextView) findViewById(R.id.percentage_hiragana_progress);
+        percentageKatakana = (TextView) findViewById(R.id.percentage_katakana_progress);
+        infoStatus = getSharedPreferences("com.codanimex.android.allkana", Context.MODE_WORLD_WRITEABLE);
+        hiraganaProgress.setProgress(infoStatus.getInt("HiraganaStatus", 0));
+        katakanaProgress.setProgress(infoStatus.getInt("KatakanaStatus", 0));
+        percentageHiragana.setText(infoStatus.getInt("HiraganaStatus", 0)+"%");
+        percentageKatakana.setText(infoStatus.getInt("KatakanaStatus", 0)+"%");
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        hiraganaProgress = (ProgressBar) findViewById(R.id.hiraganaProgressBar);
+        katakanaProgress = (ProgressBar) findViewById(R.id.katakanaProgressBar);
+        percentageHiragana = (TextView) findViewById(R.id.percentage_hiragana_progress);
+        percentageKatakana = (TextView) findViewById(R.id.percentage_katakana_progress);
+        infoStatus = getSharedPreferences("com.codanimex.android.allkana", Context.MODE_WORLD_WRITEABLE);
+        hiraganaProgress.setProgress(infoStatus.getInt("HiraganaStatus", 0));
+        katakanaProgress.setProgress(infoStatus.getInt("KatakanaStatus", 0));
+        percentageHiragana.setText(infoStatus.getInt("HiraganaStatus", 0)+"%");
+        percentageKatakana.setText(infoStatus.getInt("KatakanaStatus", 0)+"%");
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -117,12 +91,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onHiraganaLearnClicked(View view) {
-        Intent intent = new Intent(this, HiraganaTab.class);
+        Intent intent = new Intent(this, HiraganaLearn.class);
+        this.onPause();
+        infoStatus = getSharedPreferences("com.codanimex.android.allkana", Context.MODE_WORLD_WRITEABLE);
+        infoStatus.edit().putInt("HiraganaStatus", 25).apply();
         startActivity(intent);
     }
 
     public void onKatakanaLearnClicked(View view) {
-        Intent intent = new Intent(this, KatakanaTab.class);
+        Intent intent = new Intent(this, KatakanaLearn.class);
+        this.onPause();
+        infoStatus = getSharedPreferences("com.codanimex.android.allkana", Context.MODE_WORLD_WRITEABLE);
+        infoStatus.edit().putInt("KatakanaStatus", 35).apply();
         startActivity(intent);
     }
 }

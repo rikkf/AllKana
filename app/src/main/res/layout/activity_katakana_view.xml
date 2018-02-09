@@ -66,14 +66,15 @@
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1" />
 
-    <Button
+    <ImageButton
         android:id="@+id/play_kana_sound"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:background="@drawable/play_round_button"
         android:onClick="onPlayButtonClicked"
-        android:text="@string/play"
+        android:src="@drawable/play"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"

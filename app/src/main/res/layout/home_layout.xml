@@ -31,15 +31,15 @@
             <ProgressBar
                 android:id="@+id/hiraganaProgressBar"
                 style="?android:attr/progressBarStyleHorizontal"
-                android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:max="100"
-                android:progress="50"
-                android:progressTint="@color/colorAccent"
-                android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:max="100"
+                android:progress="0"
+                android:progressTint="@color/colorAccent" />
 
             <TextView
                 android:id="@+id/percentage_hiragana_progress"
@@ -48,7 +48,19 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
-                android:text="50%" />
+                android:text="0%" />
+
+            <Button
+                android:id="@+id/learnHiraganaButton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/hiraganaProgressBar"
+                android:layout_marginTop="14dp"
+                android:onClick="onHiraganaLearnClicked"
+                android:text="@string/hiraganaLearn" />
 
         </RelativeLayout>
 
@@ -80,15 +92,15 @@
             <ProgressBar
                 android:id="@+id/katakanaProgressBar"
                 style="?android:attr/progressBarStyleHorizontal"
-                android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:max="100"
-                android:progress="30"
-                android:progressTint="@color/colorAccent"
-                android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:max="100"
+                android:progress="0"
+                android:progressTint="@color/colorAccent" />
 
             <TextView
                 android:id="@+id/percentage_katakana_progress"
@@ -97,7 +109,19 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
-                android:text="30%" />
+                android:text="0%" />
+
+            <Button
+                android:id="@+id/learnKatakanaButton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/katakanaProgressBar"
+                android:layout_marginTop="14dp"
+                android:onClick="onKatakanaLearnClicked"
+                android:text="@string/katakanaLearn" />
 
         </RelativeLayout>
 
@@ -109,19 +133,19 @@
 
         <ImageView
             android:id="@+id/japan_circle"
-            android:layout_width="237dp"
-            android:layout_height="163dp"
-            app:srcCompat="@drawable/circle"
-            android:tint="@color/colorAccent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="32dp"
+            android:layout_width="169dp"
+            android:layout_height="98dp"
+            android:layout_marginBottom="32dp"
             android:layout_marginLeft="8dp"
-            app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginRight="8dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintHorizontal_bias="0.504"
+            android:layout_marginTop="32dp"
+            android:tint="@color/colorAccent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="32dp" />
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle" />
 
     </android.support.constraint.ConstraintLayout>
 </LinearLayout>

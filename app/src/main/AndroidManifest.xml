@@ -11,13 +11,13 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name" />
         <activity
-            android:name=".learn.HiraganaTab"
-            android:parentActivityName=".MainActivity"></activity>
+            android:name=".tabs.HiraganaTab"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".learn.KatakanaTab"
-            android:parentActivityName=".MainActivity"></activity>
+            android:name=".tabs.KatakanaTab"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashActivity"
             android:label="@string/app_name">
@@ -27,9 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HiraganaViewActivity"></activity>
-        <activity android:name=".KatakanaViewActivity"></activity>
+        <activity android:name=".HiraganaViewActivity" />
+        <activity android:name=".KatakanaViewActivity" />
+        <activity android:name=".HiraganaLearn" />
+        <activity android:name=".KatakanaLearn" />
+        <activity android:name=".quiz.HiraganaQuiz"></activity>
     </application>
-
 
 </manifest>

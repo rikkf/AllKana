@@ -1,4 +1,4 @@
-package com.codanimex.android.allkana.learn;
+package com.codanimex.android.allkana.tabs;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
