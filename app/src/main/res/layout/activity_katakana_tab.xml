@@ -30,7 +30,6 @@
             android:layout_below="@id/katakana_text_field">
 
             <Button
-                android:id="@+id/a_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -42,7 +41,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/i_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -54,7 +52,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/u_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -66,7 +63,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/e_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -78,7 +74,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/o_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -90,7 +85,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ka_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -102,7 +96,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ki_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -114,7 +107,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ku_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -126,7 +118,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ke_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -138,7 +129,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ko_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -150,7 +140,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/sa_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -162,7 +151,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/shi_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -174,7 +162,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/su_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -186,7 +173,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/se_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -198,7 +184,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/so_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -210,7 +195,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ta_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -222,7 +206,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/chi_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -234,7 +217,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/tsu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -246,7 +228,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/te_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -258,7 +239,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/to_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -270,7 +250,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/na_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -282,7 +261,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ni_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -294,7 +272,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/nu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -306,7 +283,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ne_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -318,7 +294,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/no_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -330,7 +305,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ha_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -342,7 +316,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/hi_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -354,7 +327,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/fu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -366,7 +338,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/he_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -378,7 +349,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ho_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -390,7 +360,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ma_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -402,7 +371,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/mi_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -414,7 +382,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/mu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -426,7 +393,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/me_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -438,7 +404,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/mo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -450,7 +415,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -469,7 +433,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/yu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -488,7 +451,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/yo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -500,7 +462,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ra_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -512,7 +473,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ri_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -524,7 +484,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ru_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -536,7 +495,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/re_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -548,7 +506,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ro_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -560,7 +517,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/wa_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -593,7 +549,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/wo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -605,7 +560,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/n_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -671,7 +625,6 @@
             android:layout_alignStart="@+id/textView2">
 
             <Button
-                android:id="@+id/ga_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -683,7 +636,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/gi_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -695,7 +647,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/gu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -707,7 +658,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ge_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -719,7 +669,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/go_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -731,7 +680,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/za_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -743,7 +691,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ji_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -755,7 +702,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/zu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -767,7 +713,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ze_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -779,7 +724,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/zo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -791,7 +735,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/da_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -803,7 +746,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ji_di_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -815,7 +757,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/zu_du_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -827,7 +768,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/de_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -839,7 +779,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/do_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -850,7 +789,6 @@
                 android:textColor="#311b92"
                 android:textSize="18sp" />
             <Button
-                android:id="@+id/ba_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -862,7 +800,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/bi_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -874,7 +811,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/bu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -886,7 +822,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/be_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -898,7 +833,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/bo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -910,7 +844,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/pa_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -922,7 +855,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/pi_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -934,7 +866,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/pu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -946,7 +877,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/pe_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -958,7 +888,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/po_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -990,13 +919,11 @@
             android:columnCount="3"
             android:rowCount="11"
             android:orientation="horizontal"
-            android:id="@+id/gridLayout3"
             android:layout_below="@+id/textView3"
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3">
 
             <Button
-                android:id="@+id/kya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1008,7 +935,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/kyu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1020,7 +946,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/kyo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1032,7 +957,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/sha_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1044,7 +968,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/shu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1056,7 +979,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/sho_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1068,7 +990,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/cha_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1080,7 +1001,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/chu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1092,7 +1012,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/cho_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1104,7 +1023,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/nya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1116,7 +1034,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/nyu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1128,7 +1045,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/nyo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1140,7 +1056,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/hya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1152,7 +1067,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/hyu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1164,7 +1078,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/hyo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1176,7 +1089,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/mya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1188,7 +1100,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/myu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1200,7 +1111,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/myo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1212,7 +1122,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/rya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1224,7 +1133,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ryu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1236,7 +1144,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ryo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1248,7 +1155,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/gya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1260,7 +1166,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/gyu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1272,7 +1177,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/gyo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1284,7 +1188,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ja_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1296,7 +1199,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/ju_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1308,7 +1210,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/jo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1320,7 +1221,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/bya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1332,7 +1232,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/byu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1344,7 +1243,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/byo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1356,7 +1254,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/pya_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1368,7 +1265,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/pyu_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1380,7 +1276,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/pyo_button_k"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"

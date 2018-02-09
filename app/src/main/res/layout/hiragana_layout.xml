@@ -10,7 +10,6 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/learnHiraganaButton"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -24,7 +23,6 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/quizHiraganaButton"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

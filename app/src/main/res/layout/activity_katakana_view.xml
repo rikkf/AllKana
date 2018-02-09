@@ -67,7 +67,6 @@
         tools:layout_constraintLeft_creator="1" />
 
     <ImageButton
-        android:id="@+id/play_kana_sound"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

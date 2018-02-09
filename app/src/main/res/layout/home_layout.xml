@@ -21,7 +21,6 @@
             >
 
             <TextView
-                android:id="@+id/hiragana_progress_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
@@ -51,7 +50,6 @@
                 android:text="0%" />
 
             <Button
-                android:id="@+id/learnHiraganaButton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,7 +80,6 @@
             >
 
             <TextView
-                android:id="@+id/katakana_progress_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
@@ -112,7 +109,6 @@
                 android:text="0%" />
 
             <Button
-                android:id="@+id/learnKatakanaButton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -132,7 +128,6 @@
         android:layout_height="fill_parent">
 
         <ImageView
-            android:id="@+id/japan_circle"
             android:layout_width="169dp"
             android:layout_height="98dp"
             android:layout_marginBottom="32dp"

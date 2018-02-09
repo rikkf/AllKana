@@ -31,7 +31,6 @@
             android:layout_below="@id/hiragana_text_field">
 
             <Button
-                android:id="@+id/a_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -43,7 +42,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/i_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -55,7 +53,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/u_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -68,7 +65,6 @@
 
             <Button
 
-                android:id="@+id/e_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -80,7 +76,6 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/o_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -93,7 +88,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ka_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -105,7 +99,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ki_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -117,7 +110,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ku_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -129,7 +121,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ke_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -141,7 +132,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ko_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -153,7 +143,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/sa_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -165,7 +154,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/shi_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -177,7 +165,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/su_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -189,7 +176,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/se_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -201,7 +187,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/so_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -213,7 +198,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ta_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -225,7 +209,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/chi_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -237,7 +220,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/tsu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -249,7 +231,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/te_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -261,7 +242,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/to_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -273,7 +253,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/na_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -285,7 +264,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ni_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -297,7 +275,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/nu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -309,7 +286,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ne_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -321,7 +297,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/no_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -333,7 +308,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ha_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -345,7 +319,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/hi_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -357,7 +330,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/fu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -369,7 +341,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/he_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -381,7 +352,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ho_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -393,7 +363,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ma_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -405,7 +374,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/mi_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -417,7 +385,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/mu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -429,7 +396,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/me_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -441,7 +407,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/mo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -453,7 +418,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -472,7 +436,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/yu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -491,7 +454,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/yo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -503,7 +465,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ra_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -515,7 +476,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ri_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -527,7 +487,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ru_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -539,7 +498,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/re_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -551,7 +509,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ro_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -563,7 +520,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/wa_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -596,7 +552,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/wo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -608,7 +563,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/n_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -675,7 +629,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ga_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -687,7 +640,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/gi_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -699,7 +651,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/gu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -711,7 +662,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ge_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -723,7 +673,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/go_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -735,7 +684,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/za_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -747,7 +695,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ji_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -759,7 +706,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/zu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -771,7 +717,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ze_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -783,7 +728,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/zo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -795,7 +739,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/da_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -807,7 +750,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ji_di_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -819,7 +761,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/zu_du_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -831,7 +772,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/de_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -843,7 +783,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/do_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -854,7 +793,6 @@
                 android:textSize="18sp" />
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ba_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -866,7 +804,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/bi_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -878,7 +815,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/bu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -890,7 +826,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/be_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -903,7 +838,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/bo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -915,7 +849,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/pa_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -927,7 +860,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/pi_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -939,7 +871,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/pu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -951,7 +882,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/pe_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -963,7 +893,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/po_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
@@ -994,14 +923,12 @@
             android:columnCount="3"
             android:rowCount="11"
             android:orientation="horizontal"
-            android:id="@+id/gridLayout3"
             android:layout_below="@+id/textView3"
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3">
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/kya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1013,7 +940,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/kyu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1025,7 +951,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/kyo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1037,7 +962,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/sha_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1049,7 +973,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/shu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1061,7 +984,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/sho_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1073,7 +995,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/cha_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1085,7 +1006,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/chu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1097,7 +1017,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/cho_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1109,7 +1028,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/nya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1121,7 +1039,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/nyu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1133,7 +1050,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/nyo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1145,7 +1061,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/hya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1157,7 +1072,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/hyu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1169,7 +1083,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/hyo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1181,7 +1094,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/mya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1193,7 +1105,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/myu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1205,7 +1116,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/myo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1217,7 +1127,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/rya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1229,7 +1138,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ryu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1241,7 +1149,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ryo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1253,7 +1160,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/gya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1265,7 +1171,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/gyu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1277,7 +1182,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/gyo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1289,7 +1193,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ja_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1301,7 +1204,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/ju_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1313,7 +1215,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/jo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1325,7 +1226,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/bya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1337,7 +1237,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/byu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1349,7 +1248,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/byo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1361,7 +1259,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/pya_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1373,7 +1270,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/pyu_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
@@ -1385,7 +1281,6 @@
 
             <Button
                 android:onClick="onHiraganaSelected"
-                android:id="@+id/pyo_button_h"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="106.66dp"
                 android:layout_height="wrap_content"
