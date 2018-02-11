@@ -81,12 +81,12 @@ public class HiraganaQuiz extends AppCompatActivity {
             case "hiraganacombo":
                 hiraganaQuestionArray = hiraganaListCombo.clone();
                 hiraganaAnswerArray = hiraganaListComboAnswer.clone();
+                //TODO (2) : Fix combo things
                 for (int i = 0; i < hiraganaAnswerArray.length; i++) {
                     numbers.add(i);
                 }
                 break;
             case "hiraganaall":
-                //TODO (2) : Correct All Array, 'cause it's not in order
                 hiraganaQuestionArray = ArrayUtils.addAll(hiraganaListBasics, hiraganaListHD);
                 hiraganaQuestionArray = ArrayUtils.addAll(hiraganaQuestionArray, hiraganaListCombo);
                 hiraganaAnswerArray = ArrayUtils.addAll(hiraganaListBasicsAnswer, hiraganaListHDAnswer);
