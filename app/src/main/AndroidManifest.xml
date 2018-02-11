@@ -32,7 +32,8 @@
         <activity android:name=".HiraganaLearn" />
         <activity android:name=".KatakanaLearn" />
         <activity android:name=".quiz.HiraganaQuiz" />
-        <activity android:name=".quiz.TypeSelectionActivityHiragana"></activity>
+        <activity android:name=".quiz.TypeSelectionActivityHiragana" />
+        <activity android:name=".quiz.QuizResults"></activity>
     </application>
 
 </manifest>
