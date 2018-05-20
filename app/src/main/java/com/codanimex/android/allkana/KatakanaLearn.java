@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.codanimex.android.allkana.tabs.KatakanaTab;
-
 /**
  * Created by Riccardo on 01/09/2017.
  */

@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.codanimex.android.allkana.quiz.TypeSelectionActivityHiragana;
-import com.codanimex.android.allkana.tabs.HiraganaTab;
 
 /**
  * Created by Riccardo on 01/09/2017.
@@ -26,7 +24,5 @@ public class HiraganaLearn extends AppCompatActivity {
     }
 
     public void onQuizHiraganaClicked(View view) {
-        Intent intent = new Intent(this, TypeSelectionActivityHiragana.class);
-        startActivity(intent);
     }
 }
