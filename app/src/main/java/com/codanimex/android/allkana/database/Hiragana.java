@@ -1,21 +1,17 @@
 package com.codanimex.android.allkana.database;
 
-import android.media.MediaPlayer;
-
 import com.orm.SugarRecord;
 
 
 public class Hiragana extends SugarRecord {
-    String hiragana;
-    String hiraganaRomaji;
-    MediaPlayer hiraganaSound;
+    public String hiragana;
+    public String hiraganaRomaji;
 
     public Hiragana() {
     }
 
-    public Hiragana(String hiragana, String hiraganaRomaji, MediaPlayer hiraganaSound) {
+    public Hiragana(String hiragana, String hiraganaRomaji) {
         this.hiragana = hiragana;
         this.hiraganaRomaji = hiraganaRomaji;
-        this.hiraganaSound = hiraganaSound;
     }
 }

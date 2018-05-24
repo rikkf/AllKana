@@ -7,12 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.codanimex.android.allkana.database.Hiragana;
+
 public class HiraganaViewActivity extends AppCompatActivity {
 
     TextView romajiKana;
     TextView hiraganaKana;
-    String hiraganaTitle;
-    String romajiTitle;
+    Hiragana hiragana;
     Intent intent;
 
     @Override
@@ -22,12 +23,12 @@ public class HiraganaViewActivity extends AppCompatActivity {
         intent = getIntent();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        hiraganaTitle = intent.getStringExtra("hiragana_title");
-        romajiTitle = intent.getStringExtra("romaji_title");
+        Long hiraganaID = intent.getLongExtra("hiragana_id", 0);
+        hiragana = Hiragana.findById(Hiragana.class, hiraganaID);
         romajiKana = (TextView) findViewById(R.id.romaji_dialog_title);
         hiraganaKana = (TextView) findViewById(R.id.hiragana_dialog_title);
-        hiraganaKana.setText(hiraganaTitle);
-        romajiKana.setText(romajiTitle);
+        hiraganaKana.setText(hiragana.hiragana);
+        romajiKana.setText(hiragana.hiraganaRomaji);
     }
 
     @Override
@@ -38,7 +39,7 @@ public class HiraganaViewActivity extends AppCompatActivity {
 
     public void onPlayButtonClicked(View view) {
         MediaPlayer kanaSound;
-        switch (romajiTitle) {
+        switch (hiragana.hiraganaRomaji.toLowerCase()) {
             case "a":
                 kanaSound = MediaPlayer.create(this, R.raw.a);
                 kanaSound.start();

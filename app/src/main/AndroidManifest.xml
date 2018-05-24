@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codanimex.android.allkana"
-    >
+    package="com.codanimex.android.allkana">
 
     <application
+        android:name="com.orm.SugarApp"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name="com.orm.SugarApp">
-
-        <meta-data android:name="DATABASE" android:value="AllKana.db" />
-        <meta-data android:name="VERSION" android:value="1" />
-        <meta-data android:name="QUERY_LOG" android:value="true" />
-        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.codanimex.android.allkana" />
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="AllKana.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.codanimex.android.allkana" />
 
         <activity
             android:name=".MainActivity"
@@ -39,6 +45,12 @@
         <activity android:name=".KatakanaViewActivity" />
         <activity android:name=".HiraganaLearn" />
         <activity android:name=".KatakanaLearn" />
+        <activity
+            android:name=".quiz.QuizActivityHiragana"
+            android:label="@string/title_activity_quiz_hiragana"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".quiz.QuizHirgana" />
+        <activity android:name=".quiz.QuizKatakana"></activity>
     </application>
 
 </manifest>
