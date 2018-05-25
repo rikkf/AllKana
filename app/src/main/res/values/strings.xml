@@ -27,5 +27,8 @@
     <string name="answer_button">Answer</string>
     <string name="ok_answer_text">True</string>
     <string name="wrong_answer_text">False</string>
-
+    <string name="completed">Completed!</string>
+    <string name="ok_answer_results">Correct:</string>
+    <string name="wrong_answer_results">Wrong:</string>
+    <string name="back_to_home_button">Back to home</string>
 </resources>

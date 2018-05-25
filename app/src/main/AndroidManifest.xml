@@ -50,7 +50,9 @@
             android:label="@string/title_activity_quiz_hiragana"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".quiz.QuizHirgana" />
-        <activity android:name=".quiz.QuizKatakana"></activity>
+        <activity android:name=".quiz.QuizKatakana" />
+        <activity android:name=".quiz.ShowResultHiragana" />
+        <activity android:name=".quiz.ShowResultKatakana"></activity>
     </application>
 
 </manifest>

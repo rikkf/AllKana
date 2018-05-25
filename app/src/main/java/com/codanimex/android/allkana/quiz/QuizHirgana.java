@@ -1,5 +1,6 @@
 package com.codanimex.android.allkana.quiz;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -42,7 +43,7 @@ public class QuizHirgana extends AppCompatActivity {
         setContentView(R.layout.activity_quiz_hirgana);
         arrayAnswerFiller();
         hiraganaAnswerArray = randomizeArray(hiraganaAnswerArray);
-        questionView = (TextView) findViewById(R.id.hiraganaQuestion);
+        questionView = findViewById(R.id.hiraganaQuestion);
         questionView.setText(hiraganaAnswerArray[answerCount].getHiraganaKana());
     }
 
@@ -59,10 +60,10 @@ public class QuizHirgana extends AppCompatActivity {
     }
 
     public void onAnswerClicked(View view) {
-        answerEdit = (EditText) findViewById(R.id.hiraganaAnswer);
-        questionView = (TextView) findViewById(R.id.hiraganaQuestion);
-        okAnswers = (TextView) findViewById(R.id.ok_answers);
-        wrongAnswers = (TextView) findViewById(R.id.wrong_answers);
+        answerEdit = findViewById(R.id.hiraganaAnswer);
+        questionView = findViewById(R.id.hiraganaQuestion);
+        okAnswers = findViewById(R.id.ok_answers);
+        wrongAnswers = findViewById(R.id.wrong_answers);
         String answer = answerEdit.getText().toString().toUpperCase();
         try {
             String questionKana = hiraganaAnswerArray[answerCount].getHiraganaRomaji().toUpperCase();
@@ -78,7 +79,10 @@ public class QuizHirgana extends AppCompatActivity {
             answerEdit.setText("");
             questionView.setText(hiraganaAnswerArray[answerCount].getHiraganaKana());
         } catch (ArrayIndexOutOfBoundsException exception) {
-            //passa ai risultati
+            Intent hiraganaResults = new Intent(this, ShowResultHiragana.class);
+            hiraganaResults.putExtra("okAnswers", okCount);
+            hiraganaResults.putExtra("wrongAnswers", wrongCount);
+            startActivity(hiraganaResults);
         }
     }
 }

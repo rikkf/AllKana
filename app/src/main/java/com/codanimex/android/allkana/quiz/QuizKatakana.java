@@ -1,5 +1,6 @@
 package com.codanimex.android.allkana.quiz;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -42,7 +43,7 @@ public class QuizKatakana extends AppCompatActivity {
         setContentView(R.layout.activity_quiz_katakana);
         arrayAnswerFiller();
         katakanaAnswerArray = randomizeArray(katakanaAnswerArray);
-        questionView = (TextView) findViewById(R.id.katakanaQuestion);
+        questionView = findViewById(R.id.katakanaQuestion);
         questionView.setText(katakanaAnswerArray[answerCount].getKatakanaKana());
     }
 
@@ -59,10 +60,10 @@ public class QuizKatakana extends AppCompatActivity {
     }
 
     public void onAnswerClicked(View view) {
-        answerEdit = (EditText) findViewById(R.id.katakanaAnswer);
-        questionView = (TextView) findViewById(R.id.katakanaQuestion);
-        okAnswers = (TextView) findViewById(R.id.ok_answers);
-        wrongAnswers = (TextView) findViewById(R.id.wrong_answers);
+        answerEdit = findViewById(R.id.katakanaAnswer);
+        questionView = findViewById(R.id.katakanaQuestion);
+        okAnswers = findViewById(R.id.ok_answers);
+        wrongAnswers = findViewById(R.id.wrong_answers);
         String answer = answerEdit.getText().toString().toUpperCase();
         try {
             String questionKana = katakanaAnswerArray[answerCount].getKatakanaRomaji().toUpperCase();
@@ -78,7 +79,11 @@ public class QuizKatakana extends AppCompatActivity {
             answerEdit.setText("");
             questionView.setText(katakanaAnswerArray[answerCount].getKatakanaKana());
         } catch (ArrayIndexOutOfBoundsException exception) {
-            //passa ai risultati
+
+            Intent katakanaResults = new Intent(this, ShowResultKatakana.class);
+            katakanaResults.putExtra("okAnswers", okCount);
+            katakanaResults.putExtra("wrongAnswers", wrongCount);
+            startActivity(katakanaResults);
         }
     }
 }

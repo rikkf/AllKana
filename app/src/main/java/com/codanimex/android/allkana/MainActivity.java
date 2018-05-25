@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
             hiragana_fill_database();
             katakana_fill_database();
         }
-        hiraganaProgress = (ProgressBar) findViewById(R.id.hiraganaProgressBar);
-        katakanaProgress = (ProgressBar) findViewById(R.id.katakanaProgressBar);
-        percentageHiragana = (TextView) findViewById(R.id.percentage_hiragana_progress);
-        percentageKatakana = (TextView) findViewById(R.id.percentage_katakana_progress);
+        hiraganaProgress = findViewById(R.id.hiraganaProgressBar);
+        katakanaProgress = findViewById(R.id.katakanaProgressBar);
+        percentageHiragana = findViewById(R.id.percentage_hiragana_progress);
+        percentageKatakana = findViewById(R.id.percentage_katakana_progress);
         infoStatus = getSharedPreferences("com.codanimex.android.allkana", Context.MODE_WORLD_WRITEABLE);
         hiraganaProgress.setProgress(infoStatus.getInt("HiraganaStatus", 0));
         katakanaProgress.setProgress(infoStatus.getInt("KatakanaStatus", 0));
@@ -54,10 +54,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        hiraganaProgress = (ProgressBar) findViewById(R.id.hiraganaProgressBar);
-        katakanaProgress = (ProgressBar) findViewById(R.id.katakanaProgressBar);
-        percentageHiragana = (TextView) findViewById(R.id.percentage_hiragana_progress);
-        percentageKatakana = (TextView) findViewById(R.id.percentage_katakana_progress);
+        hiraganaProgress = findViewById(R.id.hiraganaProgressBar);
+        katakanaProgress = findViewById(R.id.katakanaProgressBar);
+        percentageHiragana = findViewById(R.id.percentage_hiragana_progress);
+        percentageKatakana = findViewById(R.id.percentage_katakana_progress);
         infoStatus = getSharedPreferences("com.codanimex.android.allkana", Context.MODE_WORLD_WRITEABLE);
         hiraganaProgress.setProgress(infoStatus.getInt("HiraganaStatus", 0));
         katakanaProgress.setProgress(infoStatus.getInt("KatakanaStatus", 0));
@@ -75,9 +75,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.theme:
-                Toast.makeText(getApplicationContext(), "Theme Selected", Toast.LENGTH_LONG).show();
-                return true;
             case R.id.rate:
                 Uri uri = Uri.parse("market://details?id=" + getPackageName());
                 Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
